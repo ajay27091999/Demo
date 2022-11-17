@@ -9,8 +9,12 @@ public class TestBook {
 		////Default Constructor
 		System.out.println(book1.language+book1.price+book1.rating+book1.name);
 		//parameter constructor
-		BookExample book2=new BookExample();
-		System.out.println()
+		BookExample book2=new BookExample("English",27,4,"HBO");
+		System.out.println(book2.language);
+		System.out.println(book2.name);
+		BookExample book3=new BookExample("English",50,5,"GOT");
+		System.out.println(book3.language);
+		System.out.println(book3.name);
 	}
 
 }
