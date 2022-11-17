@@ -6,11 +6,6 @@ public class BookExample {
 		int rating;
 		String name;
 //Default Constructor
-BookExample(String string, double d, int i, String string2){
-	language=null;
-	price=0.0f;
-	rating=0;
-}
 
 //parameter constructor
 {
